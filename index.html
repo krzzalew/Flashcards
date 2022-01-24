@@ -2,70 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link href="flashcards.css" rel="stylesheet">
 </head>
 <body>
 
+<div class="backgrounds">
+    <img class="bgImage" src="world.png" alt="World map">
+    <img class="bgImage region" id="imgAf" src="africa.png" alt="Africa">
+    <img class="bgImage region" id="imgAs" src="asia.png" alt="Asia">
+    <img class="bgImage region" id="imgAo" src="australiaoceania.png" alt="Australia Oceania">
+    <img class="bgImage region" id="imgEu" src="europe.png" alt="Europe">
+    <img class="bgImage region" id="imgNa" src="northamerica.png" alt="North America">
+    <img class="bgImage region" id="imgSa" src="southamerica.png" alt="South America">
+</div>
+
 <div class="quiz-area">
-    <h1>What is the capital of...</h1>
+    <h1 class="title">What is the capital of...</h1>
+    <div class="buttons">
+        <button class="btn" id="af" onclick="setRegion('af')">Africa</button>
+        <button class="btn" id="as" onclick="setRegion('as')">Asia</button>
+        <button class="btn" id="ao" onclick="setRegion('ao')">Australia & Oceania</button>
+        <button class="btn" id="eu" onclick="setRegion('eu')">Europe</button>
+        <button class="btn" id="na" onclick="setRegion('na')">North America</button>
+        <button class="btn" id="sa" onclick="setRegion('sa')">South America</button>
+    </div>
     <div class="board">
         <div class="container">
             <div class="card">
-                <div class="front"><p>Mexico</p></div>
-                <div class="back"><p>Mexico City</p></div>
+                <div class="front"><p> </p></div>
+                <div class="back"><p> </p></div>
             </div>
         </div>
         <div class="container">
             <div class="card">
-                <div class="front"><p>Papua New Guinea</p></div>
-                <div class="back"><p>Port Moresby</p></div>
+                <div class="front"><p> </p></div>
+                <div class="back"><p> </p></div>
             </div>
         </div>
         <div class="container">
             <div class="card">
-                <div class="front"><p>Iceland</p></div>
-                <div class="back"><p>Reykjavik</p></div>
+                <div class="front"><p> </p></div>
+                <div class="back"><p> </p></div>
             </div>
         </div>
         <div class="container">
             <div class="card">
-                <div class="front"><p>SouthKorea</p></div>
-                <div class="back"><p>Seoul</p></div>
+                <div class="front"><p> </p></div>
+                <div class="back"><p> </p></div>
             </div>
         </div>
         <div class="container">
             <div class="card">
-                <div class="front"><p>Sweden</p></div>
-                <div class="back"><p>Stockholm</p></div>
+                <div class="front"><p> </p></div>
+                <div class="back"><p> </p></div>
             </div>
         </div>
         <div class="container">
             <div class="card">
-                <div class="front"><p>Georgia</p></div>
-                <div class="back"><p>Tbilisi</p></div>
+                <div class="front"><p> </p></div>
+                <div class="back"><p> </p></div>
             </div>
         </div>
         <div class="container">
             <div class="card">
-                <div class="front"><p>Honduras</p></div>
-                <div class="back"><p>Tegucigalpa</p></div>
+                <div class="front"><p> </p></div>
+                <div class="back"><p> </p></div>
             </div>
         </div>
         <div class="container">
             <div class="card">
-                <div class="front"><p>Tunisia</p></div>
-                <div class="back"><p>Tunis</p></div>
+                <div class="front"><p> </p></div>
+                <div class="back"><p> </p></div>
             </div>
         </div>
         <div class="container">
             <div class="card">
-                <div class="front"><p>Austria</p></div>
-                <div class="back"><p>Vienna</p></div>
+                <div class="front"><p> </p></div>
+                <div class="back"><p> </p></div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="flashScript.js"></script>
 
 </body>
 </html>
